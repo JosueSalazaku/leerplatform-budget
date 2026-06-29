@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <div>
-      <ul>
+      <ul className="flex ">
         <li>
           <Link href="/">Home</Link>
         </li>
